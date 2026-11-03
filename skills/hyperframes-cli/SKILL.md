@@ -24,7 +24,7 @@ Run `npx hyperframes <command>` unless the project gives a wrapper; then use the
 | Desktop app | `open`, `catch-up` |
 | Upkeep | `doctor`, `browser`, `upgrade`, `skills`, `usage`, `clean`, `feedback` |
 
-`validate`, `inspect` and `layout` are deprecated aliases of `check`; `events` is telemetry for skills' own scripts. Don't run them.
+`validate`, `inspect` and `layout` are deprecated aliases of `check`: don't run them. `events` is telemetry that a skill's own steps call (`/figma` does for its motion, shader and storyboard phases): run it only when a skill tells you to.
 
 ## The loop
 
